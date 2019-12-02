@@ -66,7 +66,8 @@ Client/Server
     public class Server{
 
     public static boolean isPrime(int number){
-    	//Debate if else statement on user number input is prime or not
+    	
+	//Debate if user input number is prime or not
         boolean isPrimeNum = false;
         
         int i = (int) Math.ceil(Math.sqrt(number));
